@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class mm1
+public class Math_Mashup
 {
 	public static void main(String[] args)
 	{
@@ -23,8 +23,8 @@ public class mm1
 		}
 		System.out.println("Enter Magic Number: ");
 		int X = s.nextInt();
-		mm1 qwe = new mm1();
-		System.out.print(qwe.solution(N, A, M, B, X));
+		Math_Mashup mm = new Math_Mashup();
+		System.out.print(mm.solution(N, A, M, B, X));
 	}
 	public int solution(int N, int[] A, int M, int[] B, int X)
 	{
